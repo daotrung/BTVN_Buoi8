@@ -8,9 +8,10 @@
     tools:context=".AddActivity">
 
     <EditText
+        android:background="@drawable/corner"
         android:id="@+id/name_input_update"
         android:layout_width="0dp"
-        android:layout_height="wrap_content"
+        android:layout_height="50dp"
         app:layout_constraintEnd_toEndOf="parent"
         android:layout_marginTop="180dp"
         android:hint="Enter Name "
@@ -18,9 +19,10 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
     <EditText
+        android:background="@drawable/corner"
         android:id="@+id/address_input_update"
         android:layout_width="0dp"
-        android:layout_height="wrap_content"
+        android:layout_height="50dp"
         app:layout_constraintEnd_toEndOf="parent"
         android:layout_marginTop="20sp"
         android:hint="Enter Address"
@@ -28,9 +30,10 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/name_input_update" />
     <EditText
+        android:background="@drawable/corner"
         android:id="@+id/phone_input_update"
         android:layout_width="0dp"
-        android:layout_height="wrap_content"
+        android:layout_height="50dp"
         app:layout_constraintEnd_toEndOf="parent"
         android:layout_marginTop="20sp"
         android:hint="Enter Phone"
