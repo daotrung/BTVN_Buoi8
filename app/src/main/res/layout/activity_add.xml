@@ -6,7 +6,6 @@
     android:layout_height="match_parent"
     android:padding="10dp"
     tools:context=".AddActivity">
-
     <EditText
         android:id="@+id/name_input"
         android:layout_width="0dp"
@@ -40,11 +39,11 @@
 
     <Button
         android:id="@+id/btn_add"
-        android:layout_width="match_parent"
+        android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="20sp"
         android:text="Lưu"
-        android:backgroundTint="#FF80AB"
+        android:backgroundTint="#809CFF"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/phone_input"

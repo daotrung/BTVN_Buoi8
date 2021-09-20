@@ -40,11 +40,11 @@
 
     <Button
         android:id="@+id/btn_update"
-        android:layout_width="match_parent"
+        android:layout_width="300sp"
         android:layout_height="wrap_content"
         android:layout_marginTop="20sp"
         android:text="Lưu"
-        android:backgroundTint="#FF80AB"
+        android:backgroundTint="#809CFF"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/phone_input_update"
